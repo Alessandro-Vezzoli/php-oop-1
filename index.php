@@ -12,7 +12,13 @@ class Movie {
         $this->releaseYear = $releaseYear;
     }
 
-    
+     public function displayInfo() {
+        echo "Title: " . $this->title . "<br>";
+        echo "Genres: " . implode(", ", $this->genre) . "<br>";
+        echo "Release Year: " . $this->releaseYear . "<br>";
+        echo "<br>";
+    }
 }
+
 
 ?>
