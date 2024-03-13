@@ -20,5 +20,11 @@ class Movie {
     }
 }
 
+$movie1 = new Movie("Inception", ["Sci-Fi", "Action"], 2010);
+$movie2 = new Movie("The Shawshank Redemption", ["Drama"], 1994);
+
+
+$movie1->displayInfo();
+$movie2->displayInfo();
 
 ?>
